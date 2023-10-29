@@ -33,6 +33,7 @@ body {
     /* text-align: center; */
     border-radius: 5px;
     padding: 50px 35px 10px 35px;
+    margin: 0 auto;
 }
 .container header {
     font-size: 35px;
@@ -71,7 +72,7 @@ form .page .field .label {
 form .page .field input {
     box-sizing: border-box;
     height: 100%;
-    width: 100%;
+    width: 95%;
     border: 1px solid var(--inputBorderColor);
     border-radius: 5px;
     padding-left: 15px;
@@ -89,7 +90,7 @@ form .page .field select {
     font-weight: 500;
 }
 form .page .field button {
-    width: 100%;
+    width: 95%;
     height: calc(100% + 5px);
     border: none;
     background: var(--secondary);
@@ -264,3 +265,6 @@ form .page .btns button.next {
 
 
 
+textarea{
+    width:95%;
+}
