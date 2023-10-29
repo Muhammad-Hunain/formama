@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multistep form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .container {
+        height: auto;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <header>PlEASE TELL US WHICH PRODUCT YOU'VE PURCHASED </header> -->
+      <div class="progress-bar">
+        <div class="step">
+          <p></p>
+          <div class="bullet">
+            <span>1</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p></p>
+          <div class="bullet">
+            <span>2</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p></p>
+          <div class="bullet">
+            <span>3</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+        <div class="step">
+          <p></p>
+          <div class="bullet">
+            <span>4</span>
+          </div>
+          <div class="check fas fa-check"></div>
+        </div>
+      </div>
+      <div class="form-outer">
+        <form action="#">
+          <div class="page slide-page">
+            <div class="title">
+              PlEASE TELL US WHICH PRODUCT YOU'VE PURCHASED
+            </div>
+            <div class="field">
+              <div class="label">Which project did you Purchased</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">Date Purchased</div>
+              <input type="text" required />
+            </div>
+            <div class="">
+              <input type="radio" id="html" name="fav_language" value="HTML" />
+              <label for="html">Very Satisfied</label><br />
+              <input type="radio" id="css" name="fav_language" value="CSS" />
+              <label for="css">SomeWhat Satisfied</label><br />
+              <input
+                type="radio"
+                id="javascript"
+                name="fav_language"
+                value="JavaScript"
+              />
+              <label for="javascript">Neither Satisfied not Dissatisfied</label>
+              <br />
+              <input
+                type="radio"
+                id="javascript"
+                name="fav_language"
+                value="JavaScript"
+              />
+              <label for="javascript"> SomeWhat Dissatisfied</label>
+              <br />
+              <input
+                type="radio"
+                id="javascript"
+                name="fav_language"
+                value="JavaScript"
+              />
+              <label for="javascript">Very Dissatisfied</label>
+            </div>
+
+            <div class="" style="margin-top: 50px">
+              <div class="label">
+                Have you using this product atleast 7 days?
+              </div>
+              <input type="radio" id="html" name="Question" value="Yes" />
+              <label for="html">Yes</label>
+              <input type="radio" id="css" name="Question" value="No" />
+              <label for="css">No</label><br />
+            </div>
+
+            <div class="field">
+              <button class="firstNext next">Countinue</button>
+            </div>
+          </div>
+
+          <div class="page">
+            <div class="title">
+              PlEASE ENTER YOUR INFORMATION WITH YOUR AMAZON ORDER NUMBER
+            </div>
+            <div class="field">
+              <div class="label">First Name</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">Last Name</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">Amazon Order Number (Includes Dashes)</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">Email Address</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">Street Address</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">City</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">State</div>
+              <input type="text" required />
+            </div>
+            <div class="field">
+              <div class="label">Zip Code</div>
+              <input type="Number" required />
+            </div>
+
+            <div class="" style="margin-top: 50px">
+              <div class="label">
+                Please send me Special Offers and samples.
+              </div>
+              <input type="radio" id="html" name="Question1" value="Yes" />
+              <label for="html">Yes</label>
+              <input type="radio" id="css" name="Question1" value="No" />
+              <label for="css">No</label><br />
+            </div>
+
+            <div class="field btns">
+              <button class="next-1 next">Countinue</button>
+            </div>
+          </div>
+          <div class="page">
+            <div class="field" style="margin: 100px 0">
+              <div class="label product1">
+                PLEASE TELLS US WHICH FREE PRODUCT YOU WOULD LIKE TO RECEIVE
+              </div>
+              <input type="text" required />
+            </div>
+            <div class="field" style="margin-top: 50px">
+              <div class="label product2">PLEASE SHARE YOUR EXPERIENCE</div>
+              <p>
+                We would like to earn your product feedback! You can copy your
+                review below and share your product experience on Amazon. It
+                would really help our business. Thank You!
+              </p>
+            </div>
+            <div class="field">
+              <img
+                style="
+                  width: 221px;
+                  height: 140px;
+                  margin-top: -50px;
+                  margin-left: 190px;
+                "
+                src="./download.png"
+                alt="logo"
+              />
+            </div>
+            <div class="field" style="margin-top: 60px">
+              <div class="label" style="margin-top: -20px">
+                Review / Comments (Minimum 150 characters to be eligible for
+                your free item)
+              </div>
+              <textarea name="area" id="" cols="90" rows="10"></textarea>
+            </div>
+            <div class="field btns">
+              <button class="next-2 next">
+                CLICK TO POST A REVIEW ON AMAZON
+              </button>
+            </div>
+          </div>
+
+          <div class="page">
+            <h1 style>Thank you</h1>
+            <p>
+              We value your time and appreciate your business . One of our
+              customer support representative will reach out to you soon .Enjoy
+              your time
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
